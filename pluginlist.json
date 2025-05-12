@@ -19,7 +19,7 @@
         "author": "GilApps.com",
         "description": "A plugin to interact with the Gemini via API token.",
         "version": "1.0.0",
-        "filename": gemini.ai"
+        "filename": gemini.ai",
 		"official" : true
     }
 ]
