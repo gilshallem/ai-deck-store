@@ -5,5 +5,12 @@
         "description": "A plugin to interact with the ChatGPT without an API token.",
         "version": "1.0.0",
         "filename": "ChatGPTFree.ai"
+    },
+    {
+        "name": "ChatGPTFree2",
+        "author": "Florestan",
+        "description": "A plugin to interact with the ChatGPT without an API token.",
+        "version": "1.0.0",
+        "filename": "ChatGPTFree.ai"
     }
 ]
