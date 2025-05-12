@@ -7,10 +7,10 @@
         "filename": "ChatGPTFree.ai"
     },
     {
-        "name": "ChatGPTFree2",
+        "name": "ChatGPTFree",
         "author": "Florestan",
         "description": "A plugin to interact with the ChatGPT without an API token.",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "filename": "ChatGPTFree.ai"
     },
     {
