@@ -1,11 +1,4 @@
 [
-    {
-        "name": "ChatGPT",
-        "author": "GilApps.com",
-        "description": "A plugin to interact with the ChatGPT via API token.",
-        "version": "1.0.0",
-        "filename": "chatgpt.ai",
-		"official" : true
-    }
+    
   
 ]
