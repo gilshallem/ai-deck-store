@@ -1,25 +1,11 @@
 [
     {
-        "name": "ChatGPTFree",
-        "author": "Florestan",
-        "description": "A plugin to interact with the ChatGPT without an API token.",
-        "version": "1.0.0",
-        "filename": "ChatGPTFree.ai"
-    },
-    {
         "name": "ChatGPT",
         "author": "GilApps.com",
         "description": "A plugin to interact with the ChatGPT via API token.",
-        "version": "1.0.1",
+        "version": "1.0.0",
         "filename": "chatgpt.ai",
 		"official" : true
-    },
-    {
-        "name": "Gemini",
-        "author": "GilApps.com",
-        "description": "A plugin to interact with the Gemini via API token.",
-        "version": "1.0.0",
-        "filename": "gemini.ai",
-		"official" : true
     }
+  
 ]
