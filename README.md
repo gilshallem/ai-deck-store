@@ -56,7 +56,7 @@ The `package.json` file describes your plugin and its requirements. It should in
 
 ### Writing `index.js`
 
-The `index.js` file contains your plugin's logic. It should export functions that A.I Desk can call. The most common functions are:
+The `index.js` file contains your plugin's logic. It should export functions that A.I Desk can call. The functions are:
 
 - **`prompt(settings, conversationHistory, model)`**:  
   Sends a prompt to an AI model and returns the response.  
@@ -68,11 +68,11 @@ The `index.js` file contains your plugin's logic. It should export functions tha
       { role: 'assistant', content: 'Hi, how can I help you?' }
     ]
     ```
-  - **model**: The ID of the model to use (as a string). This is typically one of the models returned by your `listModels` function.
+  - **model**: The ID of the model to use (as a string). This is one of the models returned by your `listModels` function.
 
 - **`listModels(settings)`**:  
   Returns a list of available models for your plugin, using the provided settings.  
-  - **Return Value**: An array of objects, where each object represents a model. Each object must have:
+  - **Return Value**: An array of objects, where each object represents a model. Each object consist of:
     - `id`: A unique identifier for the model (required).
     - `name`: A human-readable name for the model (optional).  
   Example return value:  
@@ -84,14 +84,18 @@ The `index.js` file contains your plugin's logic. It should export functions tha
   ```
 
 - **`getDefaultModuleID()`** (optional):  
-  Returns the string ID of the default model. This function is useful if your plugin has a preferred model that should be used when no specific model is selected by the user.  
+  Returns the string ID of the default model. This function is useful if your plugin has a preferred model that should appear at the beginning of the list of models and have "(Default)" appended to its name.  
   - **Return Value**: A string representing the default model ID.  
   Example return value:  
   ```json
   "gpt-4o"
   ```
 
-You can use any npm packages declared in your `package.json` dependencies. Use the `settings` object to access user-provided parameters.
+### Hints
+
+- You can use any npm packages declared in your `package.json` dependencies.
+- `axios` is already included for making HTTP requests.
+- Use the `settings` object to access user-provided parameters, such as API tokens or other configuration values.
 
 ---
 
