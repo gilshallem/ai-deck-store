@@ -188,9 +188,12 @@ module.exports = {
          "author": "Florestan",
          "description": "A plugin to interact with the ChatGPT without an API token.",
          "version": "1.0.0",
-         "filename": "chatgptfree.ai"
+         "filename": "chatgptfree.ai",
+         "minAppVersion": "1.2.0"
      }
      ```
+
+   - The `minAppVersion` property specifies the minimum version of A.I Desk required to run the plugin. This ensures users don't install plugins that aren't compatible with their version of the application.
 
 ---
 
