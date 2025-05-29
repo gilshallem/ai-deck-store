@@ -1,11 +1,4 @@
 [
-    {
-		"name": "ChatGPTFree",
-		"author": "Florestan",
-		"description": "A plugin to interact with the ChatGPT without an API token.",
-		"version": "1.0.1",
-		"minAppVersion": "2.0.0",
-		"filename": "chatfree.ai"
-	}
+    
   
 ]
